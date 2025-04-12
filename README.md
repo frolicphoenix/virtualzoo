@@ -1,6 +1,6 @@
-# 🐾 CloudPet Zoo — Infrastructure as Code Playground
+# 🐾 Virtual Zoo — IaC Playground
 
-Welcome to **CloudPet Zoo** — a whimsical and minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons. It's simple, fun, and a great base to explore server lifecycles and control panels.
+Welcome to **Virtual Zoo** — a minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons. It's simple, fun, and a great base to explore server lifecycles and control panels.
 
 ---
 
@@ -30,41 +30,22 @@ This project demonstrates how to:
 
 ## 🐾 Features
 
-- ✅ Create a zoo from a YAML file (`my_zoo.yaml`)
-- 🔁 View live pet list and their status (lifespan, hunger)
-- ⏳ Pets age and get hungrier every 5 seconds
-- 💀 Pets with zero lifespan are removed automatically
-- 🍖 Feed all pets to reduce their hunger
-- 💣 Destroy the entire zoo in one click (use wisely)
+- Create a zoo from a YAML file (`my_zoo.yaml`)
+- View live pet list and their status (lifespan, hunger)
+- Pets age and get hungrier every 5 seconds
+- Pets with zero lifespan are removed automatically
+- Feed all pets to reduce their hunger
+- Destroy the entire zoo in one click (use wisely)
 
 ---
 
-## 🗂️ Folder Structure
+## 🧠 Concepts Explored
 
-```
-cloudpet-zoo/
-│
-├── main.go                  # Go backend server
-├── zoo_ui.py                # Python GUI using Tkinter
-├── pets/
-│   └── my_zoo.yaml          # YAML config to define your zoo
-```
-
----
-
-## 🧪 Sample `my_zoo.yaml`
-
-```yaml
-pets:
-  - name: Luna
-    type: cat
-    hunger: 2
-    lifespan: 10
-  - name: Echo
-    type: dragon
-    hunger: 0
-    lifespan: 15
-```
+- Background processing in Go using `time.Ticker` + `goroutines`
+- Data races avoided with `sync.Mutex`
+- Frontend-backend communication via REST APIs
+- YAML as declarative infrastructure (IaC metaphor)
+- Simple stateful system simulation
 
 ---
 
@@ -95,33 +76,12 @@ Ensure you have `requests`, `pyyaml`, and `tkinter` installed.
 
 ---
 
-## 🧠 Concepts Explored
-
-- Background processing in Go using `time.Ticker` + `goroutines`
-- Data races avoided with `sync.Mutex`
-- Frontend-backend communication via REST APIs
-- YAML as declarative infrastructure (IaC metaphor)
-- Simple stateful system simulation
-
----
-
-## 📌 Future Ideas
-
-- Feed individual pets
-- Add pet mood/health
-- WebSocket-based real-time UI
-- Evolution system based on care
-- Terminal CLI or Web Dashboard instead of Tkinter
-
----
-
 ## ✨ Author
 
-Made with curiosity and code by [Your Name or GitHub Link]
+Made with curiosity and code by pranjall
 
 ---
 
 ## 🐉 License
 
 MIT — feel free to evolve this zoo into whatever you want.
-```
