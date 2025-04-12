@@ -52,12 +52,6 @@ Install `requests`, `pyyaml`, and `tkinter` if you haven't.
 
 ---
 
-## ✨ Author
-
-Made with curiosity and code by pranjall
-
----
-
 ## 🐉 License
 
 MIT — feel free to evolve this zoo into whatever you want.
