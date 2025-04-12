@@ -1,18 +1,6 @@
 # 🐾 Virtual Zoo — IaC Playground
 
-Welcome to **Virtual Zoo** — a minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons. It's simple, fun, and a great base to explore server lifecycles and control panels.
-
----
-
-## 📦 Project Overview
-
-This project demonstrates how to:
-
-- Simulate infrastructure resources using virtual pets
-- Use **Go** to manage state and background timers (goroutines)
-- Use **Python (Tkinter)** to interact with the backend via a GUI
-- Apply Infrastructure-as-Code ideas using a YAML config file
-- Practice concurrency, REST API design, and full-stack interactions
+**Virtual Zoo** is a minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons.
 
 ---
 
@@ -39,16 +27,6 @@ This project demonstrates how to:
 
 ---
 
-## 🧠 Concepts Explored
-
-- Background processing in Go using `time.Ticker` + `goroutines`
-- Data races avoided with `sync.Mutex`
-- Frontend-backend communication via REST APIs
-- YAML as declarative infrastructure (IaC metaphor)
-- Simple stateful system simulation
-
----
-
 ## 🚀 How to Run
 
 ### 1. Start the Go server
@@ -65,7 +43,7 @@ Make sure it runs on `localhost:8080`.
 python zoo_ui.py
 ```
 
-Ensure you have `requests`, `pyyaml`, and `tkinter` installed.
+Install `requests`, `pyyaml`, and `tkinter` if you haven't.
 
 ### 3. Use the App
 
