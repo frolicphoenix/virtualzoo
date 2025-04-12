@@ -39,6 +39,16 @@ This project demonstrates how to:
 
 ---
 
+## 🧠 Concepts Explored
+
+- Background processing in Go using `time.Ticker` + `goroutines`
+- Data races avoided with `sync.Mutex`
+- Frontend-backend communication via REST APIs
+- YAML as declarative infrastructure (IaC metaphor)
+- Simple stateful system simulation
+
+---
+
 ## 🚀 How to Run
 
 ### 1. Start the Go server
@@ -63,16 +73,6 @@ Ensure you have `requests`, `pyyaml`, and `tkinter` installed.
 - 🔄 Refresh → view pet status
 - 🍗 Feed All Pets → reduce their hunger
 - 💀 Destroy Zoo → wipes everything
-
----
-
-## 🧠 Concepts Explored
-
-- Background processing in Go using `time.Ticker` + `goroutines`
-- Data races avoided with `sync.Mutex`
-- Frontend-backend communication via REST APIs
-- YAML as declarative infrastructure (IaC metaphor)
-- Simple stateful system simulation
 
 ---
 
