@@ -1,6 +1,6 @@
-# 🐾 CloudPet Zoo — Infrastructure as Code Playground
+# 🐾 Virtual Zoo — Infrastructure as Code Playground
 
-Welcome to **CloudPet Zoo** — a whimsical and minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons. It's simple, fun, and a great base to explore server lifecycles and control panels.
+Welcome to **Virtual Zoo** — a minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons. It's simple, fun, and a great base to explore server lifecycles and control panels.
 
 ---
 
@@ -36,19 +36,6 @@ This project demonstrates how to:
 - 💀 Pets with zero lifespan are removed automatically
 - 🍖 Feed all pets to reduce their hunger
 - 💣 Destroy the entire zoo in one click (use wisely)
-
----
-
-## 🗂️ Folder Structure
-
-```
-cloudpet-zoo/
-│
-├── main.go                  # Go backend server
-├── zoo_ui.py                # Python GUI using Tkinter
-├── pets/
-│   └── my_zoo.yaml          # YAML config to define your zoo
-```
 
 ---
 
@@ -117,11 +104,10 @@ Ensure you have `requests`, `pyyaml`, and `tkinter` installed.
 
 ## ✨ Author
 
-Made with curiosity and code by [Your Name or GitHub Link]
+Made with curiosity and code by pranjall
 
 ---
 
 ## 🐉 License
 
 MIT — feel free to evolve this zoo into whatever you want.
-```
