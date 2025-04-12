@@ -4,7 +4,7 @@
 
 ---
 
-## 📦 Project Overview
+## Project Overview
  
  - Simulate infrastructure resources using virtual pets
  - Use **Go** to manage state and background timers (goroutines)
@@ -14,7 +14,7 @@
 
 ---
 
-## 🐾 Features
+## Features
 
 - Create a zoo from a YAML file (`my_zoo.yaml`)
 - View live pet list and their status (lifespan, hunger)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Start the Go server
 
