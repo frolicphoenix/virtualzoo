@@ -1,4 +1,4 @@
-# 🐾 Virtual Zoo — IaC Playground
+# 🐾 Virtual Zoo 
 
 **Virtual Zoo** is a minimal Infrastructure as Code (IaC) experiment where pets are deployed, aged, and cared for like virtual machines in a cloud. This small app combines Go (for backend and lifecycle simulation) with Python (for a GUI dashboard) to simulate a live zoo where pets get hungry, grow old, and can be fed or destroyed through buttons.
 
