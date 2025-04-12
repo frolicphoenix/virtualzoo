@@ -61,7 +61,7 @@ func feedHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(map[string]string{"status": "pets fed"})
 }
 
-// --- 🕰️ Pet Simulation Goroutine ---
+// --- Pet Simulation Goroutine ---
 func startPetLifeCycle() {
 	ticker := time.NewTicker(5 * time.Second)
 
@@ -87,7 +87,7 @@ func startPetLifeCycle() {
 }
 
 func main() {
-	go startPetLifeCycle() // 👈 background simulation
+	go startPetLifeCycle()
 
 	http.HandleFunc("/apply", applyHandler)
 	http.HandleFunc("/destroy", destroyHandler)
