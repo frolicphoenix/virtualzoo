@@ -39,22 +39,6 @@ This project demonstrates how to:
 
 ---
 
-## 🧪 Sample `my_zoo.yaml`
-
-```yaml
-pets:
-  - name: Luna
-    type: cat
-    hunger: 2
-    lifespan: 10
-  - name: Echo
-    type: dragon
-    hunger: 0
-    lifespan: 15
-```
-
----
-
 ## 🚀 How to Run
 
 ### 1. Start the Go server
@@ -89,16 +73,6 @@ Ensure you have `requests`, `pyyaml`, and `tkinter` installed.
 - Frontend-backend communication via REST APIs
 - YAML as declarative infrastructure (IaC metaphor)
 - Simple stateful system simulation
-
----
-
-## 📌 Future Ideas
-
-- Feed individual pets
-- Add pet mood/health
-- WebSocket-based real-time UI
-- Evolution system based on care
-- Terminal CLI or Web Dashboard instead of Tkinter
 
 ---
 
