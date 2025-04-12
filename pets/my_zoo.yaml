@@ -1,0 +1,13 @@
+pets: 
+  - name: Luna
+    type: cat
+    hunger: 3
+    lifespan: 300
+  - name: Max
+    type: dog
+    hunger: 5
+    lifespan: 500
+  - name: Bella
+    type: rabbit
+    hunger: 2
+    lifespan: 200
