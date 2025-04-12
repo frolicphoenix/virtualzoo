@@ -30,12 +30,12 @@ This project demonstrates how to:
 
 ## 🐾 Features
 
-- ✅ Create a zoo from a YAML file (`my_zoo.yaml`)
-- 🔁 View live pet list and their status (lifespan, hunger)
-- ⏳ Pets age and get hungrier every 5 seconds
-- 💀 Pets with zero lifespan are removed automatically
-- 🍖 Feed all pets to reduce their hunger
-- 💣 Destroy the entire zoo in one click (use wisely)
+- Create a zoo from a YAML file (`my_zoo.yaml`)
+- View live pet list and their status (lifespan, hunger)
+- Pets age and get hungrier every 5 seconds
+- Pets with zero lifespan are removed automatically
+- Feed all pets to reduce their hunger
+- Destroy the entire zoo in one click (use wisely)
 
 ---
 
