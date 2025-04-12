@@ -4,15 +4,13 @@
 
 ---
 
-## 🧰 Tech Stack
-
-| Tech | Purpose |
-|------|---------|
-| **Go** | Backend server, REST API, concurrency (goroutines), pet lifecycle |
-| **Python** | Frontend GUI using Tkinter |
-| **YAML** | Zoo configuration (as an analogy to IaC templates) |
-| **HTTP (REST)** | Communication between frontend and backend |
-| **Mutex** | Safe concurrent access to pet data |
+## 📦 Project Overview
+ 
+ - Simulate infrastructure resources using virtual pets
+ - Use **Go** to manage state and background timers (goroutines)
+ - Use **Python (Tkinter)** to interact with the backend via a GUI
+ - Apply Infrastructure-as-Code ideas using a YAML config file
+ - Practice concurrency, REST API design, and full-stack interactio
 
 ---
 
